@@ -1,0 +1,4 @@
+- hosts: sv1
+  tasks:
+    - name: sampletask
+      copy: src=./files/hoge dest=/tmp/hoge
